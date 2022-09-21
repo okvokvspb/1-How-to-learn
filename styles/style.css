@@ -9,7 +9,6 @@
   font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
 }
 
-
 /* Обнулить все отступы */
 
 /* Секция заголовок ======================================== */
@@ -334,7 +333,7 @@
   justify-content: space-between;
   width: 90%;
   min-height: 250px;
-  max-width: auto;
+  min-width: auto;
   color: white;
   text-decoration: none;
   margin: 0 auto;
