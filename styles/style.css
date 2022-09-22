@@ -373,10 +373,6 @@
 .logo_place_footer {
   margin: 0;
   color: white;
-<<<<<<< HEAD
-=======
-
->>>>>>> f46b5093462e0f6edc7b6695bdf263b6b14c6981
 }
 
 .footer__author {
@@ -388,11 +384,7 @@
   font-weight: normal;
 }
 
-<<<<<<< HEAD
 /*Заголовки колонок 2, 3 */
-=======
-/* Содержание колонки 2, 3 */
->>>>>>> f46b5093462e0f6edc7b6695bdf263b6b14c6981
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
@@ -416,11 +408,7 @@
   list-style-type: none;
 }
 
-<<<<<<< HEAD
 /* Значки в колонку 3 */
-=======
-/* Содержание колонки 3 */
->>>>>>> f46b5093462e0f6edc7b6695bdf263b6b14c6981
 .footer__social-icon {
   margin: 0;
   padding: 0 10px 0 0;
