@@ -367,7 +367,7 @@
 .khan {
   margin: 0;
   padding-top: 105px;
-  width: 80%
+  width: 80%;
 }
 
 .khan__container {
@@ -434,7 +434,7 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-  color: #2f80ed
+  color: #2f80ed;
 }
 
 .khan__buy-link:hover {
