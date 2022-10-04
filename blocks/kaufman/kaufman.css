@@ -1,0 +1,18 @@
+@import url(./__triangle/kaufman__triangle.css);
+@import url(./section-title/_theme_dark/section-title_theme_dark.css);
+@import url(./section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
+/* Секция Кауфман ================================================= */
+.kaufman {
+  margin: 0;
+  padding-top: 90px;
+  position: relative;
+  color: white;
+  background-color: #1f1f1f;
+  /*background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  /*background-size: 877px 877px;
+  background-position: right -210px top 0;
+  object-fit: cover;*/
+  /* */
+  overflow: hidden;
+}

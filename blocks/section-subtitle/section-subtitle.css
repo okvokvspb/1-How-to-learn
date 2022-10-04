@@ -1,0 +1,11 @@
+@import url(./kaufman/kaufman.css);
+@import url(./_theme_dark/section-title_theme_dark.css);
+.section-subtitle {
+  padding-top: 20px;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
