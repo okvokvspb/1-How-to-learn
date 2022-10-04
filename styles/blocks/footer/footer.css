@@ -1,0 +1,8 @@
+/* Подножие сайта ================================================== */
+.footer {
+  margin: 0;
+  position: relative;
+  min-width: 1100px;
+  min-height: 350px;
+  background-color: #1f1f1f;
+}

@@ -75,7 +75,7 @@
 .header__link:hover {
   color: darkblue;
   opacity: .5;
-  transition: .2s linear;
+  transition: .15s linear;
 }
 
 .header__main-illustration {
@@ -169,24 +169,35 @@
 
 .cards {
   margin: 0 auto;
-  min-width: 920px;
+  width: 920px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-
+  flex-wrap: wrap;
 }
 
 .cards__item {
+  margin: 0;
+  width: 240px;
   flex-direction: column;
   text-align: center;
 }
 
+.cards__item:nth-child(2) {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.cards__item:nth-child(5) {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .cards__image {
   margin: 0;
-  margin-top: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 43px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 43px;
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -225,7 +236,6 @@
   width: 515px;
   height: 316px;
   padding-right: 20px;
-
 }
 
 /* Секция цифры ============================================= */
@@ -270,7 +280,6 @@
   padding-top: 60px;
   width: 250px;
   flex-wrap: wrap;
-
 }
 
 .table__heading {
@@ -351,7 +360,7 @@
 .feynman__link:hover {
   color: darkblue;
   opacity: .5;
-  transition: .2s linear;
+  transition: .15s linear;
 }
 
 /* Секция Хан ====================================================*/
@@ -431,7 +440,7 @@
 .khan__buy-link:hover {
   color: darkblue;
   opacity: .5;
-  transition: .2s linear;
+  transition: .15s linear;
 }
 
 /* Секция Кауфман ================================================= */
@@ -521,7 +530,7 @@
 
 .resources__link:hover {
   opacity: .5;
-  transition: .2s linear;
+  transition: .15s linear;
 }
 
 /* Подножие сайта ================================================== */
@@ -635,5 +644,5 @@
 .footer__column-link:hover {
   color: rgb(255, 234, 0);
   opacity: .5;
-  transition: .2s linear;
+  transition: .15s linear;
 }

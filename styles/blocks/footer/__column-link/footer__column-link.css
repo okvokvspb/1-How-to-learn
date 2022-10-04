@@ -1,0 +1,12 @@
+/* Свойство ссылки*/
+.footer__column-link {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: rgb(255, 234, 0);
+  opacity: .5;
+  transition: .15s linear;
+}

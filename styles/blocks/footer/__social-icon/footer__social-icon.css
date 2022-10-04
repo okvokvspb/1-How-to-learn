@@ -1,0 +1,8 @@
+/* Значки в колонку 3 */
+.footer__social-icon {
+  margin: 0;
+  padding: 0 10px 0 0;
+  /* верхний правый нижний левый */
+  background-size: 16px 16px;
+  background-size: contain;
+}
