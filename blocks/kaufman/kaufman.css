@@ -1,7 +1,8 @@
 /* Секция Кауфман ================================================= */
 .kaufman {
-  margin: 0;
+  margin: 0 auto;
   padding-top: 90px;
+  padding-bottom: 90px;
   position: relative;
   color: white;
   background-color: #1f1f1f;
@@ -10,6 +11,5 @@
   /*background-size: 877px 877px;
   background-position: right -210px top 0;
   object-fit: cover;*/
-  /* */
-  overflow: hidden;
+   overflow: hidden;
 }

@@ -1,8 +1,10 @@
 .resources__link {
+  margin: 0;
   text-align: center;
   width: 270px;
   height: 38px;
   padding-top: 80px;
+
 }
 .resources__link:hover {
   opacity: .5;

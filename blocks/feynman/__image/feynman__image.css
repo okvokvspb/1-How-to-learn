@@ -1,9 +1,12 @@
-/*.feynman__image
+.feynman__image
 {
+  /*display:flex;
   position: absolute;
   left: 0;
   bottom: 0;
+  background-position: bottom left;
   width: 867px;
   height: 637px;
-  background-repeat: no-repeat;
-  } */
+  background-size: 867px 637px;
+  background-repeat: no-repeat;*/
+  }
