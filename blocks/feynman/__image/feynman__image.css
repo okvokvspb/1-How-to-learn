@@ -1,12 +1,11 @@
 .feynman__image
 {
-  /*display:flex;
+  /*display: flex;
   position: absolute;
   left: 0;
   bottom: 0;
-  background-position: bottom left;
   width: 867px;
   height: 637px;
-  background-size: 867px 637px;
+  object-fit: cover;
   background-repeat: no-repeat;*/
-  }
+ }
