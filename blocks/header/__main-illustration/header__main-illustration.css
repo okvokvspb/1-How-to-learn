@@ -5,7 +5,5 @@
   width: 765px;
   height: 608px;
   object-fit: cover;
-  /*background-size: contain; */
-  background-repeat: no-repeat;
   z-index: 3;
 }

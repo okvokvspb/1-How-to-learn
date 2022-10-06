@@ -1,6 +1,8 @@
 .header__title {
   margin: auto 0;
   padding-left: 64px;
+  /*общая ширина контейнера складывается из заданой ширины и значений padding - */
+  box-sizing: content-box;
   width: 730px;
   line-height: 96px;
   font-size: 102px;

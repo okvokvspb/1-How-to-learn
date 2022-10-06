@@ -3,13 +3,10 @@
   margin: 0 auto;
   padding-top: 90px;
   padding-bottom: 90px;
+  display: flex;
   position: relative;
+  flex-direction: column;
   color: white;
   background-color: #1f1f1f;
-  /*background-image: url(../images/kaufman-triangle.svg);
-  background-repeat: no-repeat;
-  /*background-size: 877px 877px;
-  background-position: right -210px top 0;
-  object-fit: cover;*/
-   overflow: hidden;
+  overflow: hidden;
 }
