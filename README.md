@@ -6,4 +6,4 @@
 
 * В проекте использованы техники HTML5, CSS флексбокс и анимация.
 
-* https://github.io/okvokv/how-to-learn
+* https://okvokv.github.io/how-to-learn
