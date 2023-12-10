@@ -1,7 +1,10 @@
 .resources__link {
   margin: 0;
-  }
+  text-decoration: none;
+  transition: opacity .2s linear;
+}
+
 .resources__link:hover {
   opacity: .5;
-  transition: .15s linear;
+  animation: rotationX .6s linear 1;
 }

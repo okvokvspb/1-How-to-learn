@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Научиться учиться</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./pages/index.css">
+   <title>Научиться учиться</title>
 </head>
 
-<body>
-  <div class="page">
+<body class="page">
 
     <!-- Шапка сайта =================================================-->
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="логотип">
+      <img class="logo logo__header" src="./images/logo_place_header.svg" alt="логотип">
+
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни?&nbsp;
         <a class=" header__link" href="#"> Узнать &rarr;</a>
       </p>
+
       <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка">
-      <div class="header__square-pic rotation"></div>
+      <div class="header__square-pic"></div>
     </header>
 
-    <main class="content">
+    <main>
 
       <!-- Секция описание ================================================-->
       <section class="description">
         <div class="two-columns">
+
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
               материал.
@@ -42,6 +44,7 @@
           </div>
         </div>
       </section>
+
       <!-- Секция техники ================================================-->
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
@@ -114,10 +117,12 @@
         <p class="feynman__subtitle">Выучить и не забыть</p>
         <a class="feynman__link" href="#">Подробнее &rarr;</a>
       </section>
+
       <!-- Секция цифры ==================================================-->
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
+
         <div class="table">
           <div class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -155,6 +160,7 @@
             <p class="table__text">Открытие условного рефлекса</p>
           </div>
         </div>
+
       </section>
 
       <!--Секция Хан ======================================================-->
@@ -163,9 +169,8 @@
           <h2 class="khan__author">Салман Хан</h2>
           <h3 class="khan__title">Весь мир — школа</h3>
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
-            всему
-            миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
-            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
+            всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
+            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <h4 class="khan__quote-author">Джордж Лукас</h4>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -178,59 +183,62 @@
 
       <!-- Секция Кауфман =================================================-->
       <section class="kaufman">
-        <h2 class="section-title  section-title_theme_dark">Принципы обучения</h2>
-        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-        <div class="table table_theme_dark">
+        <h2 class="section-title">Принципы обучения</h2>
+        <p class="section-subtitle">от Джоша Кауфмана</p>
+
+        <div class="table">
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">1</h3>
-            <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
+            <h3 class="table__heading">1</h3>
+            <p class="table__text">Выберите привлекательный проект.</p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">2</h3>
-            <p class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
+            <h3 class="table__heading">2</h3>
+            <p class="table__text">Сосредоточьтесь на каком-то одном навыке.</p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">3</h3>
-            <p class="table__text table__text_theme_dark">Определите целевой уровень мастерства.
+            <h3 class="table__heading">3</h3>
+            <p class="table__text">Определите целевой уровень мастерства.
             </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">4</h3>
-            <p class="table__text table__text_theme_dark">Разбейте навык на элементы.</p>
+            <h3 class="table__heading">4</h3>
+            <p class="table__text">Разбейте навык на элементы.</p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">5</h3>
-            <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
+            <h3 class="table__heading">5</h3>
+            <p class="table__text">Приготовьте всё необходимое для занятий.</p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">6</h3>
-            <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
+            <h3 class="table__heading">6</h3>
+            <p class="table__text">Устраните препятствия для занятий.</p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">7</h3>
-            <p class="table__text table__text_theme_dark">Выделите специальное время для занятий.</p>
+            <h3 class="table__heading">7</h3>
+            <p class="table__text">Выделите специальное время для занятий.</p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">8</h3>
-            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалвми.
+            <h3 class="table__heading">8</h3>
+            <p class="table__text">Занимайтесь по расписанию, короткими интенсивными интервалвми.
             </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">9</h3>
-            <p class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
+            <h3 class="table__heading">9</h3>
+            <p class="table__text">Создайте быстрые петли обратной связи.</p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">10</h3>
-            <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
+            <h3 class="table__heading">10</h3>
+            <p class="table__text">Уделяйте внимание количеству и скорости.</p>
           </div>
+
         </div>
-        <div class="kaufman__triangle rotation"></div>
+        <div class="kaufman__triangle"></div>
       </section>
 
       <!--Секция ресурсы =============================================-->
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаков обучения</p>
+
         <div class="resources__logo-zone">
           <a href="#" target="_blank" class="resources__link"><img class="resources__logo"
               src="./images/logo/resources-arzamas.svg" alt="Арзамас лого"></a>
@@ -241,17 +249,22 @@
           <a href="#" target="_blank" class="resources__link"><img class="resources__logo"
               src="./images/logo/resources-polka.svg" alt="Полка лого"></a>
         </div>
+
       </section>
+
     </main>
 
     <!-- Подножие сайта ==============================================-->
     <footer class="footer">
+
       <div class="footer__columns">
+
         <!-- колонка 1-->
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="логотип">
-          <p class="footer__author">&copy; Ознобищев Кирилл</p>
+          <img class="logo" src="./images/logo_place_footer.svg" alt="логотип">
+          <p class="footer__author">&copy; О*******в К****л 2022 - </p>
         </div>
+
         <!-- колонка 2-->
         <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
@@ -261,6 +274,7 @@
             <li><a class="footer__column-link" href="#" target="_blank">Наставники</a></li>
           </ul>
         </nav>
+
         <!--колонка 3-->
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
@@ -274,9 +288,11 @@
             </li>
           </ul>
         </div>
+
       </div>
+
     </footer>
-  </div>
-</body>
+
+  </body>
 
 </html>

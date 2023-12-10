@@ -1,6 +1,6 @@
 .table__cell {
-  padding-top: 60px;
+  margin-top: 60px;
   width: 250px;
-  flex-wrap: wrap;
-  z-index: 2;
+  white-space: wrap;
+  z-index: 1;
 }

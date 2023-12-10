@@ -5,8 +5,6 @@
   padding: 0 0 16px 0;
   /* верхний правый нижний левый */
   /* -----------------------------------------------*/
-  flex-direction: column;
-  align-items: flex-start;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;

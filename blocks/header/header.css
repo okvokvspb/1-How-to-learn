@@ -1,8 +1,8 @@
 /* Секция заголовок ======================================== */
 .header {
-  margin: 0;
-  display: flex;
   position: relative;
+  display: flex;
+  margin: 0;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;

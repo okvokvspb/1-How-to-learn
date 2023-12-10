@@ -2,10 +2,9 @@
   margin: auto 0;
   padding-left: 64px;
   /*общая ширина контейнера складывается из заданой ширины и значений padding - */
-  box-sizing: content-box;
-  width: 730px;
+  width: 550px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  z-index: 4;
+  z-index: 1;
 }
