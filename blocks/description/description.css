@@ -1,6 +1,7 @@
 /* Секция описание =========================================== */
 .description {
-  margin: 0;
+  margin: 0 auto;
   position: relative;
+  max-width: 1050px;
   padding-top: 100px;
  }
