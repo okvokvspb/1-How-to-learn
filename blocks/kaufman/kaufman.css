@@ -4,6 +4,8 @@
   margin: 0 auto;
   padding-top: 90px;
   padding-bottom: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   flex-direction: column;
   color: white;
