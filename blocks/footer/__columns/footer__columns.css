@@ -5,9 +5,9 @@
   padding-bottom: 40px;
   width: 90%;
   min-width: auto;
-  min-height: 250px;
   color: white;
   display: flex;
   justify-content: space-between;
   flex-shrink: 2;
+  border: 1px solid green;
 }
