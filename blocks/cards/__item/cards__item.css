@@ -1,15 +1,15 @@
 .cards__item {
   margin: 0;
-  width: 240px;
+  width: 192px;
   text-align: center;
 }
 
 .cards__item:nth-child(2) {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .cards__item:nth-child(5) {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
 }

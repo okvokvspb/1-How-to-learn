@@ -1,9 +1,9 @@
 .header__square-pic {
   position: absolute;
-  top: 64px;
+  top: 51px;
   right: 0;
-  width: 568px;
-  height: 568px;
+  width: 454px;
+  height: 454px;
   background-color: #2f80ed;
   animation: rotationZ 20s infinite linear;
 }

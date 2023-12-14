@@ -1,5 +1,5 @@
 /* колонка 2*/
 .footer__column_content_info {
   margin: 0;
-  min-width: auto;
+  min-width: max-content;
 }

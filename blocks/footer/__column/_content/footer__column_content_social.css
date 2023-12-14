@@ -1,5 +1,5 @@
 /* колонка 3*/
 .footer__column_content_social {
   margin: 0;
-  min-width: auto;
+  min-width: max-content;
 }

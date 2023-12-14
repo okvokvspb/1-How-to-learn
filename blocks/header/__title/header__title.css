@@ -1,10 +1,10 @@
 .header__title {
   margin: auto 0;
-  padding-left: 64px;
+  padding-left: 51px;
   /*общая ширина контейнера складывается из заданой ширины и значений padding - */
-  width: 550px;
-  line-height: 96px;
-  font-size: 102px;
+  width: 440px;
+  line-height: 1;
+  font-size: 82px;
   font-weight: 600;
   z-index: 2;
 }

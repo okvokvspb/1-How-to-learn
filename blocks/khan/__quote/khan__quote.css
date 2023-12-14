@@ -1,9 +1,9 @@
 .khan__quote {
   margin: 0;
-  max-width: 790px;
-  line-height: 34px;
-  font-size: 24px;
+  width: 632px;
+  line-height: 1.4;
+  font-size: 19px;
   font-weight: normal;
-  padding-top: 50px;
-  padding-bottom: 36px;
+  padding-top: 40px;
+  padding-bottom: 29px;
 }

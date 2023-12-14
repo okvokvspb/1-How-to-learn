@@ -5,8 +5,8 @@
   padding: 0 0 16px 0;
   /* верхний правый нижний левый */
   /* -----------------------------------------------*/
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 2;
+  font-size: 14px;
   font-weight: normal;
   list-style-type: none;
 }

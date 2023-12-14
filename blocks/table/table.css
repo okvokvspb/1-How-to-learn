@@ -1,6 +1,6 @@
 .table {
   margin: 0 auto;
-  max-width: 1000px;
+  width: 880px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
