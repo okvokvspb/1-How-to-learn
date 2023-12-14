@@ -2,11 +2,8 @@
 .footer__column-links {
   /* у списков надо обнулить все стили по умолчанию */
   margin: 0;
-  padding: 0 0 16px 0;
+  padding: 0 13px 16px 0;
   /* верхний правый нижний левый */
   /* -----------------------------------------------*/
-  line-height: 2;
-  font-size: 14px;
-  font-weight: normal;
   list-style-type: none;
 }

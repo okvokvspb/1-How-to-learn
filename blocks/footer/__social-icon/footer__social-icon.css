@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0 10px 0 0;
   /* верхний правый нижний левый */
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   object-fit: contain;
 }

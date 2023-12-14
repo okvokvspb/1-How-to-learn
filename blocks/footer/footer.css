@@ -1,8 +1,8 @@
 /* Подножие сайта ================================================== */
 .footer {
   margin: 0 auto;
-  max-width: 1280px;
   min-width: 880px;
-  min-height: 250px;
+  max-width: 1280px;
+  min-height: 280px;
   background-color: #1f1f1f;
 }

@@ -1,8 +1,13 @@
 /* Свойство ссылки*/
 .footer__column-link {
   margin: 0;
+  height: 22px;
+  font-size: 14px;
+  font-weight: normal;
   color: inherit;
   text-decoration: none;
+  display: flex;
+  align-items: center;
   transition: .15s linear;
 }
 
