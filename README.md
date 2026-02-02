@@ -8,4 +8,4 @@
 
   Сайт имеет заданные постоянные размеры.
 
-* https://okvokv.github.io/how-to-learn
+* https://okvokvspb.github.io/1-How-to-learn
